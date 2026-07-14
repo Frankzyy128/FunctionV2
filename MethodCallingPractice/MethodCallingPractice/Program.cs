@@ -49,7 +49,11 @@ namespace MethodCallingPractice {
             Bernard(30);
             Catherine(100.0, 200L);
             Derek("Driver", i, f);
-            Eleanor(s, i);
+            Console.WriteLine(Eleanor(s, i));
+            Console.WriteLine(Eleanor(Eleanor(s, i), i));
+            Console.WriteLine(Frank(1));
+            Console.WriteLine(Georgina('T',s));
+
             // 2nd param - a variable
             // 3rd param an expression
             // CATCH and display any values returned
