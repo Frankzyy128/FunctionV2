@@ -45,15 +45,16 @@ namespace MethodCallingPractice {
 
             // remember 
             // 1st param - a literal
-            Alice();
-            Bernard(30);
-            Catherine(100.0, 200L);
-            Derek("Driver", i, f);
-            Console.WriteLine(Eleanor(s, i));
-            Console.WriteLine(Eleanor(Eleanor(s, i), i));
-            Console.WriteLine(Frank(1));
-            Console.WriteLine(Georgina('T',s));
+            //Alice();
+            //Bernard(30);
+            //Catherine(100.0, 200L);
+            //Derek("Driver", i, f);
+            //Console.WriteLine(Eleanor(s, i));
+            //Console.WriteLine(Eleanor(Eleanor(s, i), i));
+            //Console.WriteLine(Frank(1));
+            //Console.WriteLine(Georgina('T',s));
 
+            WhenYouHaveTime();
             // 2nd param - a variable
             // 3rd param an expression
             // CATCH and display any values returned
@@ -70,11 +71,11 @@ namespace MethodCallingPractice {
       // But what question are these values the answer to?
       Console.WriteLine("When you have time...");
 
-      Console.WriteLine("\nChile - ");
-      Console.WriteLine("\nRussia - ");
-      Console.WriteLine("\nMongolia - ");
-      Console.WriteLine("\nZimbabwe - ");
-      Console.WriteLine("\nFinland - ");
+      Console.WriteLine("\nChile - " + Countries.Chile());
+      Console.WriteLine("\nRussia - " + Countries.Russia());
+      Console.WriteLine("\nMongolia - " + Countries.Mongolia());
+      Console.WriteLine("\nZimbabwe - " + Countries.Zimbabwe());
+      Console.WriteLine("\nFinland - " + Countries.Finland());
     }
 
     #region The 'Hidden' people
