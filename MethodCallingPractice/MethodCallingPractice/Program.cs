@@ -36,7 +36,7 @@ namespace MethodCallingPractice {
 
       // Here are some predefined but uninitialised variables to save you a
       // few seconds, ADD OTHERS if you want.
-      int i; long l; float f; double d; char c; string s; bool b;
+      int i = 1; long l = 10L; float f = 5.0F; double d = 100.0; char c = 'T'; string s = "Hello, World!"; bool b = true;
 
             // start calling 'Alice', 'Bernard' etc running your code regularly
             // feel free to write any lines of code you need before each call
@@ -45,13 +45,18 @@ namespace MethodCallingPractice {
 
             // remember 
             // 1st param - a literal
+            Alice();
+            Bernard(30);
+            Catherine(100.0, 200L);
+            Derek("Driver", i, f);
+            Eleanor(s, i);
             // 2nd param - a variable
             // 3rd param an expression
             // CATCH and display any values returned
             // decide where the widening conversion happens
             // call both versions of the 1 method of the 7 that is overloaded
             // one method returns true/false, think of an appropriate display!
-    }
+        }
 
 
     private static void WhenYouHaveTime() {
